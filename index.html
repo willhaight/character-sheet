@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Character Editor</title>
+</head>
+<link rel="icon" href="dice.jpeg">
+
+<body>
+    <div id="navigation">
+        <a href="../Life-Tracker/index.html">Life Tracker</a>
+        <a href="../Character-Sheet/index.html">Character Sheet</a>
+    </div>
+
+    <div class="sheet-area">
+        <div class="person-info">
+            <h2 id="charName" contenteditable="true" class="header-name">Name</h2>
+            <h3 id="race" contenteditable="true">Race:</h3>
+            <h3 id="playerName" contenteditable="true">Player Name:</h3>
+
+        </div>
+        <div class="char-stuffing">
+            <div class="stats">
+                <p id="strengthStat" contenteditable="true">Strength:</p>
+                <p id="dexterityStat" contenteditable="true">Dexterity:</p>
+                <p id="constitutionStat" contenteditable="true">Constitution:</p>
+                <p id="intelligenceStat" contenteditable="true">Intelligence:</p>
+                <p id="wisdomStat" contenteditable="true">Wisdom:</p>
+                <p id="charismaStat" contenteditable="true">Charisma:</p>
+                <p id="arcanaStat" contenteditable="true">Arcana:</p>
+                <p id="perceptionStat" contenteditable="true">Perception:</p>
+            </div>
+            <div class="status">
+                <div class="row1">
+                    <p id="sheetArmorClass" contenteditable="true">Armor Class:</p>
+                    <p id="sheetInitiative" contenteditable="true">Initiative:</p>
+                    <p id="sheetSpeed" contenteditable="true">Speed:</p>
+                </div>
+                <div class="row2">
+                    <p>Hit Points</p>
+                    <p id="sheetHealth" contenteditable="true">30</p>
+                </div>
+                <div class="row3">
+                    <p>Shield Points</p>
+                    <p id="sheetShieldPoints" contenteditable="true">0</p>
+                </div>
+                <div class="row3">
+                    <p>Inventory Points:</p>
+                    <p id="sheetInventoryPoints" contenteditable="true">0</p>
+                </div>
+                <div class="row3">
+                    <p>Energy Points:</p>
+                    <p id="sheetEnergy" contenteditable="true">0</p>
+                </div>
+                <div class="row3">
+                    <p>Arcana Point:</p>
+                    <p id="sheetArcana" contenteditable="true">0</p>
+                </div>
+                <div class="row4">
+                    <p id="notes" contenteditable="true">Notes:</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
